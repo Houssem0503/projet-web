@@ -1,0 +1,96 @@
+/* exemple.css */
+
+body {
+    font-family: verdana;
+    font-family: Trebuchet MS, sans-serif; 
+}
+
+header, footer, section, article {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 8px;
+}
+
+header, footer {
+    background-color: #444;
+    color: white;
+}
+
+section {
+    background-color: #ddd;
+}
+
+.section1 {
+    background-color: #444;
+    color: white;
+    height: 50px;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    height: 50px;
+}
+
+.section2 {
+    background-color: #a2a0a0;
+    color: white;
+    height: 300px;
+}
+
+.article1, .article2 {
+    background-color: #ffffff;
+    color: black;
+    height: 100px;
+}
+/* Partie 2: Header Styling */
+header {
+    background-color: red;
+    color: white;
+}
+
+.LienTitre {
+    text-decoration: none;
+    color: red;
+}
+
+.LienTitre:hover {
+    color: yellow;
+}
+
+.LienTitre:visited {
+    color: black;
+}
+
+.LienTitre[selected] {
+    color: green;
+}
+
+/* Partie 3: Form Styling */
+h2 {
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#form {
+    width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Partie 4: Footer Styling */
+footer {
+    background-color: red;
+    color: white;
+}

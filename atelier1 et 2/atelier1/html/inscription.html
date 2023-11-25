@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="houssem.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/exemple.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="accueil.html" class="LienTitre">Accueil</a>
+            <a href="projet.html">Projets</a>
+            <a href="service.html">Services</a>
+            <a href="inscription.html" class="LienTitre" selected>Inscription</a>
+        </nav>
+    </header>
+    
+    <center>
+    <img src="image/imagetp.png" alt="imagetp" height="400" width="1490"> </center>
+    <hr>
+    <blockquote>
+    
+
+    <h2>Inscription</h2>
+    
+   
+    <form id="form" name="myForm" style="width: 300px; margin-left: 20px; text-align: left;"> 
+            <label for="name">First Name*</label>
+            <input type="text" id="name" name="name" minlength="3" required style="float: right;"><br>
+<br>
+            <label for="Lastname" >Last name</label>
+            <input type="text" id="Lastname" name="Lastname" minlength="3" style="float: right;"><br>
+            <br>
+            <label for="adresse" style="float: left;">Address</label>
+            <textarea name="adresse" id="adresse" cols="20" rows="5" style="float: right;"></textarea> <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="phonenumber" >Phone Number*</label>
+            <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{11}" required style="float: right;"> <br>
+            <br>
+            <label for="date" >Date of birth</label>
+            <input type="date" id="date" name="date" required style="float: right;"> <br>
+            <br>
+            <label for="email" >Email*</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required style="float: right;"> <br>
+            <br>
+            <label for="password" >Password*</label>
+            <input type="password" id="password" name="password" required style="float: right;"> <br>
+            <br>
+            <label for="confirmpassword">Confirm password*</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required style="float: right;"> <br>
+<br>
+<button type="submit" class="btn" >Submit</button>
+<button type="reset" class="btn" style="margin-left: 20px;" >Reset</button>
+        </form>
+ 
+   
+    
+</blockquote>
+<hr>
+    <footer> 
+        <h4>Contact Us</h4>
+        <i style="float: right;">NoWhere Street</i>
+        <a href="mailto:esprit@esprit.tn">Email: esprit@esprit.tn</a> 
+       
+    </footer>
+</body>
+</html>
